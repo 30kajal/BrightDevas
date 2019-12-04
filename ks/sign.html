@@ -1,0 +1,76 @@
+<html>
+<head>
+     
+<title>online pharmacy</title>
+
+<style type ="text/css">
+       table{
+              margin-top: 10px;
+              margin-left:100px;
+              background-color: chocolate;
+              border-radius: 50px;
+              width: 70px;
+       }
+       h1
+       {
+              font-size: 60px;
+              font-style: oblique;
+              background-color: aqua;
+       
+       }
+       body
+       {
+       background-image:url('bac.jpg');
+       }
+       </style>
+
+</head>
+<body>
+             
+<form method="POST" action="add.php" >
+              <h1 align ="center"><marquee>SAATHI -YOUR PERSONAL PHARMACY</marquee></h1> 
+<h1 id="h11">SIGNUP</h1>         
+<table align ="center" cellspacing="30px">
+       <tr>
+<th>NAME</th>
+<td><input type ="text" placeholder ="username" name ="username" required="required"/></td>
+</tr>
+<tr>
+<th>PASSWORD</th>
+<td><input type ="password" placeholder ="set password" name ="password" required="required"/></td>
+</tr>
+<th>AGE</th>
+<td><input type ="age" placeholder ="age" name ="age" required="required"/></td>
+</tr>
+<tr>
+<th>GENDER</th>
+<td><input type ="radio" name ="gender"/>M
+       <input type ="radio" name ="gender"/>F</td>
+</tr>
+<onsubmit=return validate()>
+<tr>
+<th>GMAIL</th>
+<td><input type="text" placeholder="mail"name ="mail"required="required"/></td>
+</tr>
+</onsubmit>
+<tr>
+        <th>CITY</th>
+        <td><input type ="text" placeholder ="city name"name ="cityname"required="required"/></td>
+        </tr>
+              
+<tr>
+       <th>PHONE NO</th>
+       <td><input type ="text" placeholder="phone no" name ="phoneno"required="required"/></td>
+</tr>
+
+
+  <tr>
+
+<td align="right" colspan="2"><input type ="submit" value="submit"/>
+    <input type ="reset"/></td>
+    </tr>    
+    
+</table>
+</form>
+</body>
+</html>
