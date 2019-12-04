@@ -1,0 +1,91 @@
+<html>
+<head>
+     
+<title>online pharmacy</title>
+
+<style type ="text/css">
+       table{
+              margin-top: 10px;
+              margin-left:100px;
+              background-color:white;
+            
+              width: 70px;
+       }
+       #h12
+       {
+              font-size: 60px;
+              font-style: oblique;
+              background-color:white;
+       }
+       #h21{
+           margin-left: 500px;
+           margin-top: 40px;
+       }
+       body
+       {
+       background-image:url('bac.jpg');
+       }
+       #u7{
+              font-style: initial;
+              font-size: 40px;
+              margin-top: 70px;
+              margin-left: 560px;
+              background-color: azure;
+              width: 240px;
+              border-radius: 50px;
+       }
+       </style>
+
+</head>
+<body>
+   
+       
+<form method="POST" action="add.php" >
+              <h1 id="h12"align ="center"><marquee>SAATHI -YOUR HEALTH COMPANION</marquee></h1> 
+         <h1 id="u7" align="center">SIGN UP</h1>
+<table id="h21" cellspacing="30px">
+    
+       <tr>
+<th>NAME</th>
+<td><input type ="text" placeholder ="username" name ="username" required="required"/></td>
+</tr>
+<tr>
+<th>PASSWORD</th>
+<td><input type ="password" placeholder ="set password" name ="password" required="required"/></td>
+</tr>
+<th>AGE</th>
+<td><input type ="age" placeholder ="age" name ="age" required="required"/></td>
+</tr>
+<tr>
+<th>GENDER</th>
+<td><input type ="radio" name ="gender"/>M
+       <input type ="radio" name ="gender"/>F</td>
+</tr>
+<onsubmit=return validate()>
+<tr>
+<th>GMAIL</th>
+<td><input type="text" placeholder="mail"name ="mail"required="required"/></td>
+</tr>
+</onsubmit>
+<tr>
+        <th>CITY</th>
+        <td><input type ="text" placeholder ="city name"name ="cityname"required="required"/></td>
+        </tr>
+              
+<tr>
+       <th>PHONE NO</th>
+       <td><input type ="text" placeholder="phone no" name ="phoneno"required="required"/></td>
+</tr>
+
+
+  <tr>
+
+<td align="right" colspan="2"><input type ="submit" value="submit"/>
+    <input type ="reset"/></td>
+    </tr>    
+    
+</table>
+</form>
+
+</body>
+</html>

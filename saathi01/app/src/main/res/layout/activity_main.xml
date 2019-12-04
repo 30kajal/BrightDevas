@@ -24,9 +24,7 @@
         android:background="#FA0F33"
         android:layout_below="@id/aquaboy"
         android:id="@+id/tv5"/>
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+
     <ImageView
         android:layout_width="140dp"
         android:layout_height="140dp"
@@ -42,7 +40,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/aquaboy"
         android:layout_marginLeft="50dp"
-        android:layout_marginTop="334dp"
+        android:layout_marginTop="368dp"
         android:layout_marginRight="50dp"
         android:drawableRight="@drawable/ic_local_post_office_black_24dp"
         android:hint="Phone number" />
@@ -63,7 +61,7 @@
 
 
         />
-    </ScrollView>
+
 
 
     <TextView

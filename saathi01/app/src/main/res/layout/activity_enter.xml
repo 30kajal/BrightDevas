@@ -2,20 +2,21 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Enter">
+
     <TextView
+        android:id="@+id/aquaboy"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Saathi"
-        android:textSize="40dp"
-        android:padding="20dp"
         android:background="#262627"
         android:gravity="center"
-        android:id="@+id/aquaboy"
+        android:padding="20dp"
+        android:text="Saathi"
         android:textColor="#F0E8E8"
-        />
+        android:textSize="40dp" />
 
     <TextView
         android:id="@+id/tv5"
@@ -26,151 +27,160 @@
         android:background="#FA0F33" />
 
     <Button
-        android:layout_width="wrap_content"
+        android:id="@+id/ayu"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/tv5"
+
+        android:onClick="au"
+        android:background="@drawable/bg"
+        android:padding="30dp"
         android:text="AYURVEDIC CARE"
-        android:textSize="15dp"
-        android:padding="15dp"
-        android:id="@+id/ayu"
-        android:background="@drawable/bg"/>
+        android:textSize="15dp" />
 
     <Button
         android:id="@+id/car"
-        android:layout_width="132dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/tv5"
-        android:layout_alignLeft="@+id/ayu"
-        android:background="@drawable/bg"
-        android:padding="14dp"
-        android:text="CARDIAC CARE"
-        android:textSize="15dp"
-        android:layout_marginLeft="147dp"
-       />
-    <Button
-        android:id="@+id/dia"
-        android:layout_width="145dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/tv5"
-        android:layout_alignLeft="@+id/ayu"
-        android:background="@drawable/bg"
-
-        android:padding="13dp"
-        android:text="DIABETIC CARE"
-        android:textSize="15dp"
-        android:layout_marginLeft="280dp"
-        />
-
-    <Button
-        android:layout_width="150dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/ayu"
-        android:text="HYPERTENSION"
-        android:textSize="15dp"
-        android:padding="15dp"
+
+        android:onClick="ca"
+
+        android:background="@drawable/bg"
+        android:padding="30dp"
+
+        android:text="CARDIAC CARE"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/dia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/car"
+
+        android:onClick="di"
+        android:background="@drawable/bg"
+        android:padding="30dp"
+        android:text="DIABETIC CARE"
+        android:textSize="15dp" />
+
+    <Button
         android:id="@+id/hyp"
-        android:background="@drawable/bg"/>
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dia"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/bg"
+        android:onClick="hy"
+        android:padding="30dp"
+        android:text="HYPERTENSION"
+        android:textSize="15dp" />
 
     <Button
         android:id="@+id/liv"
-        android:layout_width="132dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/car"
-        android:layout_alignLeft="@+id/ayu"
+        android:layout_below="@+id/hyp"
         android:background="@drawable/bg"
-        android:padding="15dp"
+        android:padding="30dp"
+        android:onClick="li"
         android:text="LIVER CARE"
-        android:textSize="15dp"
-        android:layout_marginLeft="147dp"
-        />
+        android:textSize="15dp" />
+
     <Button
 
         android:id="@+id/child"
-        android:layout_width="145dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/dia"
-        android:layout_alignLeft="@+id/ayu"
-        android:background="@drawable/bg"
-
-        android:padding="15dp"
-        android:text="CHILD CARE"
-        android:textSize="15dp"
-        android:layout_marginLeft="280dp"
-        />
-    <TextView
-        android:id="@+id/tv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/hyp"
-        android:layout_marginTop="0dp"
-        android:background="#FA0F33" />
+        android:layout_below="@+id/liv"
 
-    <EditText
-        android:id="@+id/med"
-        android:layout_width="wrap_content"
-        android:layout_height="45dp"
-        android:layout_below="@+id/hyp"
+        android:onClick="ch"
 
-        android:layout_marginTop="40dp"
-        android:layout_marginRight="63dp"
-        android:text="Type medicine name" />
+        android:background="@drawable/bg"
+        android:padding="30dp"
+        android:text="CHILD CARE"
+        android:textSize="15dp" />
 
-
-    <Button
+   <!-- <Button
         android:id="@+id/login"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="34dp"
 
         android:layout_below="@+id/child"
-        android:layout_alignLeft="@+id/med"
-        android:layout_marginLeft="326dp"
 
-        android:layout_marginTop="45dp"
-        android:background="#D8D3B2"
+
+
+        android:background="@drawable"
         android:onClick="lis"
         android:text="CHECK"
         android:textSize="7dp"
 
-        />
-    <Button
-        android:id="@+id/pro"
-        android:layout_width="wrap_content"
-        android:layout_height="34dp"
+        />-->
 
-        android:layout_below="@+id/child"
-        android:layout_alignLeft="@+id/med"
-        android:layout_marginLeft="326dp"
+    <!-- <TextView0
+         android:id="@+id/tv"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_below="@id/hyp"
+         android:layout_marginTop="0dp"+
+         android:background="#FA0F33" />
 
-        android:layout_marginTop="100dp"
-        android:background="#D8D3B2"
-        android:onClick="lis"
-        android:text="PROCEED"
-        android:textSize="7dp"
+     <EditText
+         android:id="@+id/med"
+         android:layout_width="289dp"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/hyp"
 
-        />
-<ScrollView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_below="@+id/med">
-    <ListView
-        android:layout_width="match_parent"
-        android:layout_height="345dp"
-        android:layout_below="@+id/med"
-        android:layout_marginTop="46dp"></ListView>
+         android:layout_marginTop="43dp"
+         android:layout_marginRight="63dp"
+         android:hint="Type medicine name" />
 
-</ScrollView>
+
+
+     <Button
+         android:id="@+id/pro"
+         android:layout_width="wrap_content"
+         android:layout_height="34dp"
+
+         android:layout_below="@+id/child"
+         android:layout_alignLeft="@+id/med"
+         android:layout_marginLeft="326dp"
+
+         android:layout_marginTop="100dp"
+         android:background="#D8D3B2"
+         android:onClick="lis"
+         android:text="PROCEED"
+         android:textSize="7dp"
+
+         />
+ -->
+
+
+      <!--  <LinearLayout
+            android:id="@+id/linear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/med">
+            </ScrollView>
+        </LinearLayout>-->
+
+
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#103342"
-        android:layout_marginTop="692dp"/>
+        android:layout_marginTop="692dp"
+        android:background="#103342" />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#000"
-        android:layout_marginTop="711dp"/>
-
+        android:layout_marginTop="711dp"
+        android:background="#000" />
 
 
 </RelativeLayout>
