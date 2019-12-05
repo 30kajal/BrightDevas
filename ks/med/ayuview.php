@@ -12,7 +12,7 @@ for($i=1;$i<=$num;$i++)
     $s=$row['med'];
     
    if($m==$s)
-{  echo"<script>location.href='welcome.html'</script>";
+{  echo"<script>location.href='welcome1.html'</script>";
     
 }
 }

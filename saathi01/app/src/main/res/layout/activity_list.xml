@@ -22,35 +22,25 @@
         android:background="#FA0F33"
         android:layout_below="@id/aquaboy"
         android:id="@+id/tv5"/>
-
-    <ListView
-        android:id="@+id/list"
-        android:layout_width="match_parent"
-        android:layout_height="446dp"
-        android:layout_below="@+id/tv5"
-        android:layout_alignParentStart="true"
-        android:layout_marginStart="0dp"
-        android:layout_marginTop="1dp"></ListView>
-
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="54dp"
-        android:layout_below="@+id/list"
-        android:padding="10dp"
+        android:layout_height="wrap_content"
         android:text="                    How will you collect?"
+        android:layout_below="@+id/tv5"
         android:textSize="20dp"
-        android:id="@+id/how"/>
+        android:padding="20dp"
+        />
 
     <Button
         android:id="@+id/on"
-        android:layout_width="202dp"
-        android:layout_height="75dp"
-        android:layout_below="@+id/how"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_marginStart="0dp"
+        android:layout_marginTop="200dp"
         android:background="#4DB154"
         android:onClick="on"
-        android:padding="27dp"
+        android:padding="30dp"
         android:text="ONLINE MODE"
         android:textColor="#fff"
         android:textSize="20dp" />
@@ -58,17 +48,17 @@
 
     <Button
         android:id="@+id/off"
-        android:layout_width="208dp"
-        android:layout_height="75dp"
-        android:layout_below="@+id/how"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
+        android:layout_marginTop="200dp"
         android:background="#38663B"
         android:onClick="of"
-        android:padding="27dp"
+        android:padding="30dp"
         android:text="OFFLINE MODE"
         android:textColor="#fff"
         android:textSize="20dp" />
--->
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
